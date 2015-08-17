@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: ${rdbm.server_url}/WebsocketGateway
+
+websocket:
+  heartbeatinterval: 10000
+  security:
+    alloworigins: \*
