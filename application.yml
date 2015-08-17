@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: ${rdbm.server_url}/netobjex
+    driver-class-name: org.postgresql.Driver
+    username: netobjex
+    password: 911NetObjexIoT
+    maximum-pool-size: 30
+    
+apollo:
+  mqtt:
+    broker:
+      username: admin
+      password: password
+      host: localhost
+      port: 61613
+      
+netobjex:
+  apiGateway:
+    baseEndpoint:  http://123.30.237.89:8080/netobjexapi/gateway/rest/com/tw/netobjex/PublicAPI/
