@@ -1,0 +1,2 @@
+zookeepers:
+  hosts: localhost:2181
