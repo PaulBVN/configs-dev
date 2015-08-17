@@ -1,0 +1,3 @@
+spring:
+  datasource:
+    url: ${rdbm.server_url}/CommandCentral
