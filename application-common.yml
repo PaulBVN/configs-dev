@@ -1,0 +1,13 @@
+organization:
+  name: NetObjex
+  url: www.netobjex.com
+  
+rdbm:
+  server_url: jdbc:postgresql://localhost:5432
+  
+spring:
+  jpa: 
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+    hibernate:
+      naming_strategy: org.hibernate.cfg.EJB3NamingStrategy
