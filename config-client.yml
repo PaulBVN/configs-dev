@@ -1,0 +1,3 @@
+## the spring application name config files, if present will take a higher precedence than the profiles specific ones 
+application:
+  description: This microservice is a tester for the configuration server service config-service
