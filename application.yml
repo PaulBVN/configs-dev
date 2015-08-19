@@ -11,7 +11,7 @@ apollo:
     broker:
       username: admin
       password: password
-      host: localhost
+      host: 54.86.239.111
       port: 61613
       
 netobjex:
