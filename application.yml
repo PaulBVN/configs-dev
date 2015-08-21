@@ -16,5 +16,4 @@ apollo:
       
 netobjex:
   apiGateway:
-   # baseEndpoint:  http://api-dev.netobjex.com/netobjexapi/gateway/rest/com/tw/netobjex/PublicAPI/
-     baseEndpoint:  http://123.30.237.89:8080/netobjexapi/gateway/rest/com/tw/netobjex/PublicAPI/
+    baseEndpoint:  http://api-dev.netobjex.com/netobjexapi/gateway/rest/com/tw/netobjex/PublicAPI/
