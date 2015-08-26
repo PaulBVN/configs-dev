@@ -2,7 +2,7 @@ mqtt:
   sms:
     destination:
       ## application will append the sms sub keyword to the inbound destination
-      inbound: /queue/sms/inbound/netobjex/{subkeyword}
+      inbound: /queue/sms/inbound/{keyword}/{subkeyword}
       
 authtoken:
   CelltrustInboundSMSController: 0c68a599-59c9-407b-b6ef-7b7e7436509f
