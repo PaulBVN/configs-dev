@@ -9,4 +9,4 @@ authtoken:
   CelltrustOutboundSMSController: bc3c68d7-0cac-458c-a37b-97767e315ade
   
 zookeepers:
-  host: 
+  hosts: ${zookeepers.hosts}
