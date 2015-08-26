@@ -8,5 +8,5 @@ authtoken:
   CelltrustInboundSMSController: 0c68a599-59c9-407b-b6ef-7b7e7436509f
   CelltrustOutboundSMSController: bc3c68d7-0cac-458c-a37b-97767e315ade
   
-zookeepers:
-  hosts: ${zookeepers.hosts}
+kafka-gateway-service:
+  url: http://54.86.239.111:8084/kafkagateway/
