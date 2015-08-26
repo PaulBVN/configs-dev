@@ -1,0 +1,5 @@
+mqtt:
+  sms:
+    destination:
+      ## application will append the sms keyword to the inbound destination
+      inbound: /queue/sms/inbound/{keyword}
