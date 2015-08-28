@@ -2,4 +2,5 @@ spring:
   datasource:
     url: ${rdbm.server_url}/SessionManagement
     
-authkey: aaa
+ssm:
+  authkey: 0c68a599-59c9-407b-b6ef-8b7e7436509h
