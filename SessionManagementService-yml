@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: ${rdbm.server_url}/SessionManagement
+    
+authkey: aaa
