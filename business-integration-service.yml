@@ -6,4 +6,4 @@ session-management-service:
   endpoint: http://54.86.239.111:8087/
   
 sms-gateway-service:
-  endpoint: http://localhost:8086/
+  endpoint: http://54.86.239.111:8086/
