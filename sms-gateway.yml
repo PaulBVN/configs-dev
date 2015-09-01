@@ -1,5 +1,5 @@
 stomp:
-  sms:
+  mosms:
     destination:
       ## the service application will append the sms  keyword to the inbound destination
       ## mosms messages will be decorated and published to this topoc
