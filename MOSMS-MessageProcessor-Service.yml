@@ -1,0 +1,3 @@
+## listen to this messaging broker for incoming MOSMS Messages
+sms-gateway-service:
+  endpoint: http://54.86.239.111:8086/
