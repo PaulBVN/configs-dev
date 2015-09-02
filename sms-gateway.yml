@@ -17,3 +17,6 @@ celltrust:
   
 kafka-gateway-service:
   url: http://54.86.239.111:8084/kafkagateway/
+  
+survey:
+  baseurl: http://103.253.146.41/survey.netobjex/
