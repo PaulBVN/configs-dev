@@ -10,7 +10,7 @@ messagebroker:
     broker:
       username: admin
       password: admin
-      host: localhost
+      host: 54.86.239.111
     stomp:
       port: 61613
       domainSeparator: /
