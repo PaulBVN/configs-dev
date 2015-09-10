@@ -3,8 +3,8 @@ stomp:
     destination:
       ## the service application will append the sms  keyword to the inbound destination
       ## mosms messages will be decorated and published to this topoc
-      inbound: /queue/mosms.inbound.{keyword}
-      
+      inbound: /queue/mosms${messagebroker.stomp.domainSeparator}inbound${messagebroker.stomp.domainSeparator}{keyword}
+
 authtoken:
   CelltrustInboundSMSController: 0c68a599-59c9-407b-b6ef-7b7e7436509f
   CelltrustOutboundSMSController: bc3c68d7-0cac-458c-a37b-97767e315ade
