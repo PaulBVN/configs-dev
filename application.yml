@@ -6,13 +6,17 @@ spring:
     password: 911NetObjexIoT
     maximum-pool-size: 30
     
-apollo:
-  mqtt:
+messagebroker:
     broker:
       username: admin
-      password: password
+      password: admin
       host: 54.86.239.111
+    stomp:
       port: 61613
+      domainSeparator: /
+    mqtt:
+      port: 1883
+      domainSeparator: /
       
 netobjex:
   apiGateway:
