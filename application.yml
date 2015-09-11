@@ -13,9 +13,11 @@ messagebroker:
       host: 54.86.239.111
     stomp:
       port: 61613
-      domainSeparator: /
+      ## Wildcard for STOMP is *
+      domainSeparator: .
     mqtt:
       port: 1883
+      ## Wildcard for MQTT is #
       domainSeparator: /
       
 netobjex:
