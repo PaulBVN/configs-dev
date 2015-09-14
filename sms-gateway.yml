@@ -17,7 +17,3 @@ celltrust:
   
 kafka-gateway-service:
   url: http://54.86.239.111:8084/kafkagateway/
-  
-survey:
-  short:
-    baseurl:  http://vnm.nbj.co/
