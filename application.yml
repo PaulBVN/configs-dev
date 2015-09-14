@@ -23,3 +23,7 @@ messagebroker:
 netobjex:
   apiGateway:
     baseEndpoint:  http://api-dev.netobjex.com/netobjexapi/gateway/rest/com/tw/netobjex/PublicAPI/
+    
+survey:
+  short:
+    baseurl:  http://dev.nbj.co/
