@@ -27,3 +27,6 @@ netobjex:
 survey:
   short:
     baseurl:  http://dev.nbjx.co/
+    
+zookeepers:
+  hosts: localhost:2181
