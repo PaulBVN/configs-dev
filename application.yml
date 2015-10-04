@@ -30,3 +30,6 @@ survey:
     
 zookeepers:
   hosts: localhost:2181
+  
+kafka-gateway-service:
+  url: http://localhost:8084/kafkagateway/
