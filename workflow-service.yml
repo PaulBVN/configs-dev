@@ -1,6 +1,2 @@
-spring:
-  datasource:
-    url: ${rdbm.server_url}/workflow
-    
-session-management-service:
-  endpoint: http://54.86.239.111:8087/
+zookeepers:
+  hosts: localhost:2181
