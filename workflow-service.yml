@@ -1,2 +1,2 @@
-zookeepers:
-  hosts: localhost:2181
+kafka:
+  workflow-generic-topic: kafka.workflow.service
