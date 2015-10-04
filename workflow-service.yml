@@ -1,2 +1,2 @@
 kafka:
-  workflow-generic-topic: kafka.workflow.service
+  workflow-generic-topic: kafka.workflow.generic.topic
