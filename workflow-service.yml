@@ -1,2 +1,5 @@
 kafka:
   workflow-generic-topic: kafka.workflow.generic.topic
+  
+command-central:
+  base-url: http://localhost:8085/commandcentral/
