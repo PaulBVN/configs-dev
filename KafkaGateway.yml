@@ -1,5 +1,2 @@
-zookeepers:
-  hosts: localhost:2181
-  
 topic:
   generic: generic-data-topic
