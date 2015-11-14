@@ -1,0 +1,2 @@
+## this is the time, in ms that will be added to the lockPeriod for when a lock object is evicted from the distributed cache
+lock.cache.eviction.timeout.offset: 60000
