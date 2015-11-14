@@ -1,1 +1,2 @@
+## This it the time in ms that will be added to the lockRequestPeriod for when a lock object will be automaticlly evicted from cache
 lock.cache.eviction.timeout.offset: 60000
