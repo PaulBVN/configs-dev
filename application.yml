@@ -25,6 +25,11 @@ netobjex:
     baseEndpoint:  https://api-prod.netobjex.com/netobjexapi/gateway/rest/com/tw/netobjex/PublicAPI/
     ## baseEndpoint:  http://api-dev.netobjex.com/netobjexapi/gateway/rest/com/tw/netobjex/PublicAPI/
     
+netobjex:
+  apiGateway:
+    device-service:
+      baseEndpoint:  https://api.netobjex.com/netobjexapi/gateway/rest/com/tw/netobjex/DeviceService/
+    
 survey:
   short:
     baseurl:  http://dev.nbjx.co/
